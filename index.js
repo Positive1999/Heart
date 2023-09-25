@@ -1,4 +1,6 @@
 var  heart = document.querySelector('.fa-heart');
+var  text = document.querySelector('.text');
 heart.addEventListener('click',()=>{
-    alert('chuc be ngu ngon')
+    heart.style.display = "none";
+    text.innerHTML = "CHÚC BÉ NGỦ NGON !"
 })
