@@ -1,0 +1,36 @@
+@media screen and (max-width:440px) {
+    .heart{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .fa-heart{
+        font-size: 50px;
+        color:red;
+    }
+    .text{
+        text-align: center;
+        position: absolute;
+        top:60%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    h1{
+        display: none;
+    }
+}
+@media screen and (min-width:440px) {
+    h1{
+        display: block;
+    }
+    .heart{
+        display: none;
+        
+    }
+    .text{
+        display: none;
+    }
+}
